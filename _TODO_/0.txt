@@ -1,0 +1,21 @@
+
+1. Enhance Liquidity Pool Creation with Multiple Fee Tiers
+
+Revise the existing liquidity pool functionality to enable liquidity providers to create pools at three distinct fee tiers: 0.03%, 0.25%, and 0.8%. This enhancement should involve:
+
+* Modification of Smart Contracts: Update the smart contract governing liquidity pools to accept an additional parameter for the fee tier during pool creation. Ensure that this parameter is validated against the allowed fee levels.
+
+* User Interface Adjustments: Modify the user interface to include a dropdown menu or selection mechanism that allows users to choose their desired fee tier when creating a new liquidity pool.
+
+* Testing and Validation: Implement comprehensive testing to ensure that pools can be created successfully at each of the specified fee levels and that all associated calculations (such as rewards distribution) are accurate based on the selected fee tier.
+
+
+2. Expand Wallet Connectivity Options
+
+Update the wallet connection feature of the project to support three additional wallets: OKX Wallet, Binance Web3 Wallet, and Math Wallet. This task should encompass:
+
+* Integration of Wallet SDKs: Research and integrate the Software Development Kits (SDKs) or APIs provided by OKX, Binance, and Math Wallet into this project. This will facilitate seamless connections between users’ wallets and your application.
+
+* User Interface Enhancements: Revise the wallet connection interface to include options for these new wallets, ensuring a user-friendly experience that allows easy selection and connection.
+
+* Testing for Compatibility: Conduct thorough testing across different browsers and devices to ensure compatibility with each new wallet integration, verifying that users can connect without issues.
